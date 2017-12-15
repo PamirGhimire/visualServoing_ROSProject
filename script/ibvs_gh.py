@@ -66,8 +66,8 @@ def callback_ibvs(msg):
 
 if __name__ == '__main__':
    try:
-	   Keypoints_x_curr = np.array([])
-	   Keypoints_y_curr = np.array([])
+	  Keypoints_x_curr = np.array([])
+	  Keypoints_y_curr = np.array([])
 	  Keypoints_x , Keypoints_y = Keypoints.__main__(True);
       imlistener(Keypoints_x , Keypoints_y,  Keypoints_x_curr , Keypoints_y_curr)
    except rospy.ROSInterruptException:
