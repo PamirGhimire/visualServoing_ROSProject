@@ -37,7 +37,7 @@ The following code perform multiple operation to compute **visual servoing task*
 * Extraction of image from the Kinect ( and dependant topic) and conversion into usable array (np.array([])).
 * Computation of features on the template image (bwimage.png) using pixel counting theory.
 * Extraction of key points according the the extracted features - **Clustering** .
-* Computation of features on the current image extracted from the Kinect Camera of the **Turtlebot** and cluter the result to extract key points.
+* Computation of features on the current image extracted from the Kinect Camera of the **Turtlebot** and cluster the result to extract key points.
 * Key points matching and calculation of the distance between template and the current image.
 * Send velocity commands to the **Turtlebot** in order to perform IBVS ( Image Based Visual Servoing ).
 
