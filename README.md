@@ -26,9 +26,9 @@ The development part has been performed using python and multiple libraries:
 
 The debugging part is using opencv
 
-Compiler - `sudo apt-get install build-essential`
-Required - `sudo apt-get install cmake git libgtk2.0-dev pkg-config libavcodec-dev libavformat-dev libswscale-dev`
-Optional - `sudo apt-get install python-dev python-numpy libtbb2 libtbb-dev libjpeg-dev libpng-dev libtiff-dev libjasper-dev libdc1394-22-dev`
+* Compiler - `sudo apt-get install build-essential`
+* Required - `sudo apt-get install cmake git libgtk2.0-dev pkg-config libavcodec-dev libavformat-dev libswscale-dev`
+* Optional - `sudo apt-get install python-dev python-numpy libtbb2 libtbb-dev libjpeg-dev libpng-dev libtiff-dev libjasper-dev libdc1394-22-dev`
 
 ## Process
 
