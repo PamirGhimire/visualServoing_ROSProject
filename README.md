@@ -10,7 +10,7 @@ More description is given in the subsections.
 
 ## Dependencies
 
-The following practise has been tested with **Ubuntu 14.04 LTS**.
+The following project has been tested with **Ubuntu 14.04 LTS**.
 
 Since this project concern ROS Indigo libraries are needed:
 
