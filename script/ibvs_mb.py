@@ -42,6 +42,11 @@ def imlistener(Keypoints_x , Keypoints_y, Keypoints_x_curr , Keypoints_y_curr):
 	rospy.Subscriber("/camera/rgb/image_raw", Image, callback_ibvs)
 
 	estimation_x , estimation_y = Keypoints.Estimate(Keypoints_x , Keypoints_y ,  Keypoints_x_curr , Keypoints_y_curr )
+	
+	print "X"
+	print estimation_x
+	print "Y"
+	print estimation_y
 
 	rospy.spin()
 
