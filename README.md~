@@ -16,12 +16,12 @@ Since this project concerns ROS Indigo, following libraries are needed:
 
 * ROS Indigo - `sudo apt-get install ros-indigo-desktop-full`
 * Gazebo Simulation - `sudo apt-get install ros-indigo-gazebo-ros-pkgs ros-indigo-gazebo-ros-control`
-* Turtlebot for Gazebo - `sudo apt-get install ros-indigo-turtlebot_gazebo`
 
 The development part has been performed using CPP and ViSP:
 
 * ROS Indigo ViSP - `sudo apt-get install ros-indigo-visp-*`
 * ViSP - `sudo apt-get install libvisp-dev libvisp-doc visp-images-data`
+* Turtlebot Gazebo - `sudo apt-get install ros-indigo-turtlebot_gazebo`
 
 ## Getting your marker in the Gazebo world:
 Paste the 'marker0' folder in 'gazeboResources' into your gazebo resources directory.
