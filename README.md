@@ -2,13 +2,16 @@
 
 **Table-of-contents**
 
-* [Dependencies](#dependencies)
+* [Project](#project)
+* [Visual Servoing](#visual servoing)
 * [Materials-Videos](#materials)
 
 
 More description is given in the subsections.
 
-## Dependencies
+## Project
+
+## Visual Servoing
 
 
 ## Getting your marker in the Gazebo world:
@@ -27,5 +30,7 @@ Now, Gazebo is able to add template into a world.
 [![Watch the video](ressources/video.png)](https://www.youtube.com/watch?v=qCdgKvE52iY)
 
 ### IBVS - Qr Point Based Visual Servoing 
+This implementation is not working due to perspective and bad projection of the tagrget. The problem can be solved by using image pre-processing to re-align the target and compute the provided program.
+The decision to move on another project (**IBVS - Blob Point Based Visual Servoing**) has been done in order to complete an IBVS process with a correctly estimated working-time instead of spending time on something that could take much longer.
 
 ### IBVS - Blob Point Based Visual Servoing 
