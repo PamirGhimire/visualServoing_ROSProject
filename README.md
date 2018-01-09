@@ -56,10 +56,6 @@ Running the minimal launch and the 3Dsensor launch from ros.
 
 ## Provided in the repository
 
-### gazeboResources
-
-This folder contains all the files concerning the template to track.
-
 ### launch
 
 This folder contains all the launch files to run the code in real world or Gazebo.
@@ -67,6 +63,10 @@ This folder contains all the launch files to run the code in real world or Gazeb
 ### scripts
 
 This folder contains all the cpp files to run the code in real world or Gazebo.
+
+### model -- gazeboResources/marker0
+
+This folder contains all the files concerning the template to track.
 
 ### world
 
