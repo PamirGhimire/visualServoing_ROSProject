@@ -36,10 +36,10 @@ The 'qr.world' file available in 'world' folder contains a Gazebo world with a p
 The following code performs multiple operations to compute **visual servoing task** using **ROS Indigo** and a **Turlebot**.
 
 * Extraction of image from the Kinect ( and dependant topic) .
-* Detection of the target using a predefined template.
-* Estimate the position of the target in the world coordinate frame -  **PBVS** .
-* Compute velocities according to the error differentiating the actual coordinates of **Turtlebot** and desired coordinates.
-* Stop the velocity publishing and computation when reaching a distance contained in a threshold scale.
+* Manual initialization of blobs to be tracked 
+* Tracking of blobs in successive image frames
+* Compute velocities to minimize error between current positions of blobs and their desired positions
+* Stop the velocity publishing and computation when error has dropped below a threshold.
 
 ##Pseudocode
 
@@ -47,18 +47,19 @@ The following code performs multiple operations to compute **visual servoing tas
 
 ## Execution
 
-### Standard commands
-
+### Preliminary commands
+You'll first need to do a minimal launch and a 3dsensor launch on your turtlebot (tip: use ssh!)
 Running the minimal launch and the 3Dsensor launch from ros.
 
 * minimal - `roslaunch turtlebot-bringup minimal.launch`
 * 3dsensor - `roslaunch turtlebot-bringup 3dsensor.launch`
 
-### PBVS Task
+### Running PointsBased IBVS
 
-* PBVS - `roslaunch #NameOfPackage# qr_pbvs.launch`
-
-* PBVS Simulation - `roslaunch #NameOfPackage# turtlebot_world.launch world_file:='/world/NameofWorld.world' `
+* Reality : `rosrun IBVS_PointsBased IBVS_PointsBased`
+* Simulation : 
+1 : `roslaunch turtlebot_gazebo turtlebot_world.launch world_file:='/world/NameofWorld.world' `
+2: `rosrun IBVS_PointsBased IBVS_PointsBased_gazebo`
 
 ## Provided in the repository
 
