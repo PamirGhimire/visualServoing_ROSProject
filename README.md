@@ -72,4 +72,4 @@ This folder contains the Gazebo world to launch the code under simulation.
 
 ## Materials
 
-![Base QR](ressources/pseudocodepython.png)
+[![Watch the video](ressources/vide.png)](https://www.youtube.com/watch?v=K4BQ3v-MSrs)
