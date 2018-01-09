@@ -48,6 +48,8 @@ This implementation is not working due to perspective and bad projection of the 
 The decision to move on another project (**IBVS - Blob Point Based Visual Servoing**) has been done in order to complete an IBVS process with a correctly estimated working-time instead of spending time on something that could take much longer.
 
 ### IBVS - Blob Point Based Visual Servoing 
-
-
+#### Real View
+[![Watch the video](ressources/ibvs1.png)](https://www.youtube.com/watch?v=yDBamqhc0QQ)
+#### Computer View
+[![Watch the video](ressources/ibvs2.png)](https://www.youtube.com/watch?v=bUESEUgN75Q)
 ## MultiMaster - Task Combinations
