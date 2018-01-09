@@ -82,7 +82,7 @@ This folder contains the Gazebo world to launch the code under simulation.
 ## Materials
 
 #### Real View
-[![Watch the video](ressources/ibvs1.png)](https://www.youtube.com/watch?v=yDBamqhc0QQ)
+[![Watch the video](ressources/ibvs1.png)](https://www.youtube.com/watch?v=bUESEUgN75Q)
 #### Computer View
-[![Watch the video](ressources/ibvs2.png)](https://www.youtube.com/watch?v=bUESEUgN75Q)
+[![Watch the video](ressources/ibvs2.png)](https://www.youtube.com/watch?v=yDBamqhc0QQ)
 
