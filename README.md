@@ -25,7 +25,7 @@ The goal of the Fine Positionning task is to be able to move from the landing po
 
 ### IBVS - Image Based Visual Servoing 
 
-### Comparison of processes & choiches of implementation
+### Comparison of processes & choices of implementation
 
 
 ## Getting a template in the Gazebo world
