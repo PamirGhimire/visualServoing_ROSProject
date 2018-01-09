@@ -41,7 +41,7 @@ The following code perform multiple operation to compute **visual servoing task*
 * Key points matching and calculation of the distance between template and the current image.
 * Send velocity commands to the **Turtlebot** in order to perform IBVS ( Image Based Visual Servoing ).
 
-##Pseudocode
+## Pseudocode
 
 ![Base QR](ressources/pseudocodepython.png)
 
