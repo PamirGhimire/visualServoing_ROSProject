@@ -41,6 +41,9 @@ The following code perform multiple operation to compute **visual servoing task*
 * Key points matching and calculation of the distance between template and the current image.
 * Send velocity commands to the **Turtlebot** in order to perform IBVS ( Image Based Visual Servoing ).
 
+##Pseudocode
+
+![Base QR](ressources/pseudocodepython.png)
 
 ## Execution
 
@@ -54,3 +57,20 @@ Running the minimal launch and the 3Dsensor launch from ros.
 ### IBVS Task
 
 * IBVS - ''
+
+## Theory
+
+### QrCode Feature Extraction
+
+![Base QR](ressources/bwimage.png)
+
+By following the pseudocode, we are able to extract an image and also a set of coordinates that corresponds to the corners.
+The theory to detect corner is the ratio counting (see **Raw_Image - Qr Detection Theory**)
+
+![Base After Detection QR](ressources/bwimagedet.png)
+
+### Raw Image - Qr Detection Theory
+
+![Pixel Counting Theory](ressources/ratios.png)
+
+No matter the line we draw on the corner of a Qr Tag, the ratio remains **[1 1 3 1 1]**
