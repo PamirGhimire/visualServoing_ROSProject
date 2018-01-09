@@ -6,13 +6,26 @@
 * [Visual Servoing](#visualservoing)
 * [Getting a template in the Gazebo world](#getting)
 * [Materials-Videos](#materials)
+* [MultiMaster - Task Combination](#multimaster)
 
 
 More description is given in the subsections.
 
 ## Project
 
+The project is developped under **ROS** environment and using **Ubuntu 14.04 LTS** with a ** TurtleBot ** runing on **indigo**. 
+The key idea of the project is to develop an application runing on the robot to solve a navigation / object displacement problem.
+This big picture can be sub-divided into 3 parts, Navigation, Visual Servoing and Pick & Place. The related work has been performed on Visual Servoing Part.
+The goal of the Fine Positionning task is to be able to move from the landing position of the navigation program to a table where a robotic arm will operate.
+
+
 ## VisualServoing
+
+### PBVS - Pose Based Visual Servoing
+
+### IBVS - Image Based Visual Servoing 
+
+### Comparison of processes & choiches of implementation
 
 
 ## Getting a template in the Gazebo world:
@@ -35,3 +48,6 @@ This implementation is not working due to perspective and bad projection of the 
 The decision to move on another project (**IBVS - Blob Point Based Visual Servoing**) has been done in order to complete an IBVS process with a correctly estimated working-time instead of spending time on something that could take much longer.
 
 ### IBVS - Blob Point Based Visual Servoing 
+
+
+## MultiMaster - Task Combinations
