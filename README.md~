@@ -58,7 +58,7 @@ Running the minimal launch and the 3Dsensor launch from ros.
 
 This folder contains all the launch files to run the code in real world or Gazebo.
 
-### scripts
+### src
 
 This folder contains all the cpp files to run the code in real world or Gazebo.
 
