@@ -76,6 +76,9 @@ Now, your template should be available in the 'insert' pane of Gazebo.
 ## Materials
 
 ### PBVS - Pose Based Visual Servoing
+
+Our 'PoseBased' (see branch 'PoseBased') implementation 'enables' visual servoing only once it receives a std_msgs/String 'navdone' on topic named 'nav_status'.
+
 #### Video of the code live on robot
 [![Watch the video](ressources/vide.png)](https://www.youtube.com/watch?v=K4BQ3v-MSrs)
 #### Video of simulation
