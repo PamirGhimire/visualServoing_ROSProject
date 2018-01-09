@@ -35,7 +35,7 @@ The following code perform multiple operation to compute **visual servoing task*
 
 ## Pseudocode
 
-![Base QR](ressources/pseudocode.png)
+![Base QR](ressources/pseudocode2.png)
 
 ## Execution
 
