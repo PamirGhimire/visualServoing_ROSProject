@@ -4,9 +4,9 @@
 
 * [Project](#project)
 * [Visual Servoing](#visualservoing)
-* [Getting a template in the Gazebo world](#getting)
+* [Getting a template in the Gazebo world](#getting-a-template-in-the-gazebo-world)
 * [Materials-Videos](#materials)
-* [MultiMaster - Task Combination](#multimaster)
+* [MultiMaster - Task Combination](#multimaster-&-task-combinations)
 
 
 More description is given in the subsections.
@@ -28,7 +28,7 @@ The goal of the Fine Positionning task is to be able to move from the landing po
 ### Comparison of processes & choiches of implementation
 
 
-## Getting a template in the Gazebo world:
+## Getting a template in the Gazebo world
 Paste a folder containing your template in 'gazeboResources' into your gazebo resources directory.
 
 Usually, this is a hidden folder in your 'home' directory, named '.gazebo'. Paste the folder inside '.gazebo/models/'. In your Gazebo, you'll now be able to 'insert' your template, check the insert pane!
