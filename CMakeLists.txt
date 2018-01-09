@@ -140,12 +140,6 @@ include_directories(
 ## The recommended prefix ensures that target names across packages don't collide
 # add_executable(${PROJECT_NAME}_node src/testvisp_node.cpp)
 
-add_executable(qr_pbvs scripts/QR/qr_pbvs.cpp)
-target_link_libraries(qr_pbvs
-   ${catkin_LIBRARIES}
- )
-add_dependencies(qr_pbvs project_vs)
-
 #-----------------------------------------------------
 
 add_executable(blob_ibvs scripts/BLOB/blob_ibvs.cpp)
