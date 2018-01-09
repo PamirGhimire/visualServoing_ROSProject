@@ -52,9 +52,13 @@ Running the minimal launch and the 3Dsensor launch from ros.
 
 * PBVS - `roslaunch #NameOfPackage# qr_pbvs.launch`
 
-* PBVS Simulation - `roslaunch #NameOfPackage# turtlebot_world.launch world_file:='/world/NameofWorld.world' `
+* PBVS Simulation - `roslaunch #NameOfPackage# gazebo_qr.launch`
 
 ## Provided in the repository
+
+### gazeboResources
+
+This folder contains all the files concerning the template to track.
 
 ### launch
 
@@ -63,10 +67,6 @@ This folder contains all the launch files to run the code in real world or Gazeb
 ### scripts
 
 This folder contains all the cpp files to run the code in real world or Gazebo.
-
-### model
-
-This folder contains all the files concerning the template to track.
 
 ### world
 
