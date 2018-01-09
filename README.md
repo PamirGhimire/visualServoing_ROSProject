@@ -33,9 +33,9 @@ The following code perform multiple operation to compute **visual servoing task*
 * Compute velocities according to the error differentiating the actual coordinates of **Turtlebot** and desired coordinates.
 * Stop the velocity publishing and computation when reaching a distance contained in a threshold scale.
 
-##Pseudocode
+## Pseudocode
 
-![Base QR](ressources/pseudocodepython.png)
+![Base QR](ressources/pseudocode.png)
 
 ## Execution
 
