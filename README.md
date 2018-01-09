@@ -4,9 +4,9 @@
 
 * [Project](#project)
 * [Visual Servoing](#visualservoing)
-* [Getting a template in the Gazebo world](#getting)
+* [Getting a template in the Gazebo world](#getting-a-template-in-the-gazebo-world)
 * [Materials-Videos](#materials)
-* [MultiMaster - Task Combination](#multimaster)
+* [MultiMaster and Task Combination](#multimaster-and-task-combinations)
 
 
 More description is given in the subsections.
@@ -48,10 +48,13 @@ Finally, for both IBVS and PBVS, the velocity of the camera (mounted on the end 
 ![Base QR](readMeResources/errmin.png)
 
 ## References
-[1] 
+[1] Wikipedia contributors. ”Visual servoing.” Wikipedia, The Free Encyclopedia. Wikipedia, The Free Encyclopedia, 17 Sep. 2017. Web. 1 Nov. 2017.
 
-### Comparison of processes & choiches of implementation
+[2] S. Hutchinson, G. Hager, and P. Corke, “A tutorial on visual servo control,” IEEE Trans. Robot. Automat. vol. 12, pp. 51–670, Oct. 1996
 
+[3] Visual servoing, Francois Chaumette, Inria, Rennes, France In Computer Vision: a Reference Guide, K. Ikeuchi (ed.) pp. 869-874, Springer, 2014.
+
+### Comparison of processes & choices of implementation
 
 
 ## Getting a template in the Gazebo world:
@@ -59,7 +62,7 @@ Create a folder containing your template in 'gazeboResources' into your gazebo r
 
 Usually, this is a hidden folder in your 'home' directory, named '.gazebo'. Paste the folder inside '.gazebo/models/'. In your Gazebo, you'll now be able to 'insert' your template, check the insert pane!
 
-Now, Gazebo is able to add template into a world. 
+Now, your template should be available in the 'insert' pane of Gazebo.
 
 ## Materials
 
@@ -78,4 +81,4 @@ The decision to move on another project (**IBVS - Blob Point Based Visual Servoi
 [![Watch the video](ressources/ibvs1.png)](https://www.youtube.com/watch?v=yDBamqhc0QQ)
 #### Computer View
 [![Watch the video](ressources/ibvs2.png)](https://www.youtube.com/watch?v=bUESEUgN75Q)
-## MultiMaster - Task Combinations
+## MultiMaster and Task Combinations
