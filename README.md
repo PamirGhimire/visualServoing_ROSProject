@@ -45,19 +45,6 @@ The following code perform multiple operation to compute **visual servoing task*
 
 ![Base QR](ressources/pseudocodepython.png)
 
-## Execution
-
-### Standard commands
-
-Running the minimal launch and the 3Dsensor launch from ros.
-
-* minimal - `roslaunch turtlebot-bringup minimal.launch`
-* 3dsensor - `roslaunch turtlebot-bringup 3dsensor.launch`
-
-### IBVS Task
-
-* IBVS - ''
-
 ## Theory
 
 ### QrCode Feature Extraction
@@ -74,3 +61,16 @@ The theory to detect corner is the ratio counting (see **Raw_Image - Qr Detectio
 ![Pixel Counting Theory](ressources/ratios.png)
 
 No matter the line we draw on the corner of a Qr Tag, the ratio remains **[1 1 3 1 1]**
+
+## Execution
+
+### Standard commands
+
+Running the minimal launch and the 3Dsensor launch from ros.
+
+* minimal - `roslaunch turtlebot-bringup minimal.launch`
+* 3dsensor - `roslaunch turtlebot-bringup 3dsensor.launch`
+
+### IBVS Task
+
+* IBVS - ''
