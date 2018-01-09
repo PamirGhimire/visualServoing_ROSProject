@@ -90,9 +90,9 @@ The decision to move on another project (**IBVS - Blob Point Based Visual Servoi
 
 ### IBVS - Blob Point Based Visual Servoing 
 #### Real View
-[![Watch the video](ressources/ibvs1.png)](https://www.youtube.com/watch?v=yDBamqhc0QQ)
+[![Watch the video](ressources/ibvs1.png)](https://www.youtube.com/watch?v=bUESEUgN75Q)
 #### Computer View
-[![Watch the video](ressources/ibvs2.png)](https://www.youtube.com/watch?v=bUESEUgN75Q)
+[![Watch the video](ressources/ibvs2.png)](https://www.youtube.com/watch?v=yDBamqhc0QQ)
 
 ## MultiMaster and Task Combinations
 Our 'PoseBased' (see branch 'PoseBased') implementation 'enables' visual servoing only once it receives a std_msgs/String 'navdone' on topic named 'nav_status'.
