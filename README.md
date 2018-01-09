@@ -6,7 +6,7 @@
 * [Visual Servoing](#visualservoing)
 * [Getting a template in the Gazebo world](#getting-a-template-in-the-gazebo-world)
 * [Materials-Videos](#materials)
-* [MultiMaster & Task Combination](#multimaster-&-task-combinations)
+* [MultiMaster and Task Combination](#multimaster-and-task-combinations)
 
 
 More description is given in the subsections.
@@ -52,4 +52,4 @@ The decision to move on another project (**IBVS - Blob Point Based Visual Servoi
 [![Watch the video](ressources/ibvs1.png)](https://www.youtube.com/watch?v=yDBamqhc0QQ)
 #### Computer View
 [![Watch the video](ressources/ibvs2.png)](https://www.youtube.com/watch?v=bUESEUgN75Q)
-## MultiMaster & Task Combinations
+## MultiMaster and Task Combinations
