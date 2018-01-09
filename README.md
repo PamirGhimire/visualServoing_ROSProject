@@ -41,7 +41,7 @@ The following code performs multiple operations to compute **visual servoing tas
 * Compute velocities to minimize error between current positions of blobs and their desired positions
 * Stop the velocity publishing and computation when error has dropped below a threshold.
 
-##Pseudocode
+## Pseudocode
 
 ![Base QR](ressources/pseudocodepython.png)
 
@@ -81,4 +81,8 @@ This folder contains the Gazebo world to launch the code under simulation.
 
 ## Materials
 
-![Base QR](ressources/pseudocodepython.png)
+#### Real View
+[![Watch the video](ressources/ibvs1.png)](https://www.youtube.com/watch?v=yDBamqhc0QQ)
+#### Computer View
+[![Watch the video](ressources/ibvs2.png)](https://www.youtube.com/watch?v=bUESEUgN75Q)
+
