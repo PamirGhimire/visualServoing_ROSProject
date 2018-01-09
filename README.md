@@ -19,7 +19,7 @@ Since this project concern ROS Indigo libraries are needed:
 
 The development part has been performed using CPP and ViSP:
 
-* ROS Indigo ViSP - `sudo apt-get install ros_indigo_visp`
+* ROS Indigo ViSP - `sudo apt-get install ros-indigo-visp-*`
 * ViSP - `sudo apt-get install libvisp-dev libvisp-doc visp-images-data`
 
 
