@@ -1,6 +1,6 @@
 # ROS - Visual Servoing PBVS
 
-#### This repository is organized as an unusual way, all the codes are available under master branch but also under each specific branch owning the same name as the code. This allow a correct separation of the development and the working project.
+#### This repository is organized as follows: all the codes are available under master branch but also under each specific branch owning the same name as the code. The explanations on this readMe are about Visual Servoing in general, and birds-eye-view of our project. To find out details regarding running our implementations, please refer to the specific readMe's.
 
 **Table-of-contents**
 
