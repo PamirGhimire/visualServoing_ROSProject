@@ -3,7 +3,7 @@
 **Table-of-contents**
 
 * [Project](#project)
-* [Visual Servoing](#visual servoing)
+* [Visual Servoing](#visualservoing)
 * [Materials-Videos](#materials)
 
 
@@ -11,7 +11,7 @@ More description is given in the subsections.
 
 ## Project
 
-## Visual Servoing
+## VisualServoing
 
 
 ## Getting your marker in the Gazebo world:
