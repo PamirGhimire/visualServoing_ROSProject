@@ -58,8 +58,13 @@ Finally, for both IBVS and PBVS, the velocity of the camera (mounted on the end 
 
 [3] Visual servoing, Francois Chaumette, Inria, Rennes, France In Computer Vision: a Reference Guide, K. Ikeuchi (ed.) pp. 869-874, Springer, 2014.
 
-### Comparison of processes & choices of implementation
+### Comparison of Processes & choices of implementation
+In our experience, the pose-based method that relied on automatic detection of a QR tag of known dimensions was limited in its range of detection. These possibly came from limitations of the visp-auto-tracker.
 
+Our implementation (using ViSP) of points based IBVS offerred a significantly better range, while it requiring manual initialization of points (blobs/dots) that were to be tracked ('S' = {4 points}, see above).
+
+In later stages of our development, we felt that our pose-based approach based on the 'demo-pioneer' (see readMe on PoseBased branch) was more opaque and afforded us less control and room for experimentation than our Points based approach. 
+ 
 
 ## Getting a template in the Gazebo world:
 Create a folder containing your template in 'gazeboResources' into your gazebo resources directory. For reference, check the 'models/marker0' folder in IBVS_PointsBased' branch.
@@ -85,4 +90,11 @@ The decision to move on another project (**IBVS - Blob Point Based Visual Servoi
 [![Watch the video](ressources/ibvs1.png)](https://www.youtube.com/watch?v=yDBamqhc0QQ)
 #### Computer View
 [![Watch the video](ressources/ibvs2.png)](https://www.youtube.com/watch?v=bUESEUgN75Q)
+
 ## MultiMaster and Task Combinations
+Our 'PoseBased' (see branch 'PoseBased') implementation 'enables' visual servoing only once it receives a std_msgs/String 'navdone' on topic named 'nav_status'.
+
+This is meant for the package to be integrable into a larger project with several stages, fine positioning being one of them, using some scheme to share messages between roscores running on separate computers on a network. For reference, please see the multimaster repo linked below:
+
+Multimaster : https://github.com/Dtananaev/ROS_nodes
+

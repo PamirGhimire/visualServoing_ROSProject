@@ -51,7 +51,7 @@ Finally, for both IBVS and PBVS, the velocity of the camera (mounted on the end 
 
 ![Base QR](readMeResources/errmin.png)
 
-## References
+### References
 [1] Wikipedia contributors. ”Visual servoing.” Wikipedia, The Free Encyclopedia. Wikipedia, The Free Encyclopedia, 17 Sep. 2017. Web. 1 Nov. 2017.
 
 [2] S. Hutchinson, G. Hager, and P. Corke, “A tutorial on visual servo control,” IEEE Trans. Robot. Automat. vol. 12, pp. 51–670, Oct. 1996
@@ -90,4 +90,11 @@ The decision to move on another project (**IBVS - Blob Point Based Visual Servoi
 [![Watch the video](ressources/ibvs1.png)](https://www.youtube.com/watch?v=yDBamqhc0QQ)
 #### Computer View
 [![Watch the video](ressources/ibvs2.png)](https://www.youtube.com/watch?v=bUESEUgN75Q)
+
 ## MultiMaster and Task Combinations
+Our 'PoseBased' (see branch 'PoseBased') implementation 'enables' visual servoing only once it receives a std_msgs/String 'navdone' on topic named 'nav_status'.
+
+This is meant for the package to be integrable into a larger project with several stages, fine positioning being one of them, using some scheme to share messages between roscores running on separate computers on a network. For reference, please see the multimaster repo linked below:
+
+Multimaster : https://github.com/Dtananaev/ROS_nodes
+
