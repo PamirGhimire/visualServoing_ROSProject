@@ -101,6 +101,8 @@ This is meant for the package to be integrable into a larger project with severa
 
 Multimaster : https://github.com/Dtananaev/ROS_nodes
 
-### Video of combined project Navigation - Fine Positionning ( this project ) - Pick & Place
+### Video of combined project [Navigation](https://github.com/gopi231091/Mapping_LocalizationOfARMarkers_Navigation_ROS_Turtlebot#repository) - Fine Positionning ( this project ) 
 
 [![Watch the video](ressources/complete.png)](https://www.youtube.com/watch?v=lwvUDRsYBh4&feature=youtu.be)
+
+Pick and place addition of the combination is coming soon !
