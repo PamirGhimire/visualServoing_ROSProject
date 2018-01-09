@@ -101,3 +101,6 @@ This is meant for the package to be integrable into a larger project with severa
 
 Multimaster : https://github.com/Dtananaev/ROS_nodes
 
+### Video of combined project Navigation - Fine Positionning ( this project ) - Pick & Place
+
+[![Watch the video](ressources/vidcomb.png)](https://www.youtube.com/watch?v=bUESEUgN75Q)
