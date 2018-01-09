@@ -1,5 +1,7 @@
 # ROS - Visual Servoing PBVS
 
+#### This repository is organized as an unusual way, all the codes are available under master branch but also under each specific branch owning the same name as the code. This allow a correct separation of the development and the working project.
+
 **Table-of-contents**
 
 * [Project](#project)
@@ -13,12 +15,11 @@ More description is given in the subsections.
 
 ## Project
 
-The project is developped under **ROS** environment and using **Ubuntu 14.04 LTS** with a ** TurtleBot ** runing on **indigo**. 
+The project is developped under **ROS** environment and using **Ubuntu 14.04 LTS** with a **TurtleBot** runing on **indigo**. 
 The key idea of the project is to develop an application runing on the robot to solve a navigation / object displacement problem.
 This big picture can be sub-divided into 3 parts, Navigation, Visual Servoing and Pick & Place. The related work has been performed on Visual Servoing Part.
 The goal of the Fine Positionning task is to be able to move from the landing position of the navigation program to a table where a robotic arm will operate.
 
-#### This repository is organized as an unusual way, all the codes are available under master branch but also under each specific branch owning the same name as the code. This allow a correct separation of the development and the working project.
 
 
 ## VisualServoing
