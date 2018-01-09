@@ -1,0 +1,24 @@
+<launch>
+<!-- Launch the turtlebot -->	
+
+  <!-- Launch the multimaster node -->
+  <!--include file="$(find multimaster)/launch/multimaster.launch" /-->
+	
+  <!-- Launch the tracking node -->
+  <node pkg="visp_auto_tracker" type="visp_auto_tracker" name="visp_auto_tracker">
+    <param name="model_path" type="string" value="$(find visp_auto_tracker)/models" />
+    <param name="model_name" type="string" value="pattern" />
+    <param name="debug_display" value="True" />
+	      
+    <remap from="/visp_auto_tracker/camera_info" to="/camera/rgb/camera_info"/>
+    <remap from="/visp_auto_tracker/image_raw" to="/camera/rgb/image_raw"/>	
+  </node>
+  
+  <!-- % rosrun demo_pioneer demo_pioneer_visual_servo_pioneer_node --> 
+  <node respawn="true" pkg="project_vs" type="qr_pbvs" name="qr_pbvs" output="screen">
+     <remap from="/object_position" to="/visp_auto_tracker/object_position" />
+     <remap from="/vs/pioneer/cmd_vel" to= "/cmd_vel_mux/input/teleop" />
+    <remap from="/camera_info" to="/camera/rgb/camera_info"/>
+  </node>
+
+</launch>
