@@ -2,7 +2,7 @@
 <package>
   <name>project_vs</name>
   <version>0.0.0</version>
-  <description>The testvisp package</description>
+  <description>Fine Positioning Using Points-based Visual Servoing</description>
 
   <!-- One maintainer tag required, multiple allowed, one person per tag -->
   <!-- Example:  -->

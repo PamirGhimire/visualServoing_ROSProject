@@ -148,7 +148,7 @@ target_link_libraries(IBVS_PointsBased
  )
 add_dependencies(IBVS_PointsBased project_vs)
 
-add_executable(IBVS_PointsBased_gazebo scripts/pointsBasedIBVS_gazebo.cpp)
+add_executable(IBVS_PointsBased scripts/pointsBasedIBVS_gazebo.cpp)
 target_link_libraries(IBVS_PointsBased
    ${catkin_LIBRARIES}
  )
