@@ -105,4 +105,4 @@ Multimaster : https://github.com/Dtananaev/ROS_nodes
 
 [![Watch the video](ressources/complete.png)](https://www.youtube.com/watch?v=lwvUDRsYBh4&feature=youtu.be)
 
-Pick and place addition of the combination is coming soon !
+Pick and place addition in the combination process is coming soon !
