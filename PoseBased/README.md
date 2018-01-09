@@ -64,7 +64,7 @@ This folder contains all the launch files to run the code in real world or Gazeb
 
 This folder contains all the cpp files to run the code in real world or Gazebo.
 
-### model
+### model -- gazeboResources/marker0
 
 This folder contains all the files concerning the template to track.
 
