@@ -1,4 +1,4 @@
-# ROS - Visual Servoing PBVS
+# ROS - Visual Servoing IBVS with Blobs Detection
 
 **Table-of-contents**
 
