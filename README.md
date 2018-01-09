@@ -103,4 +103,4 @@ Multimaster : https://github.com/Dtananaev/ROS_nodes
 
 ### Video of combined project Navigation - Fine Positionning ( this project ) - Pick & Place
 
-[![Watch the video](ressources/vidcomb.png)](https://www.youtube.com/watch?v=bUESEUgN75Q)
+[![Watch the video](ressources/complete.png)](https://www.youtube.com/watch?v=lwvUDRsYBh4&feature=youtu.be)
