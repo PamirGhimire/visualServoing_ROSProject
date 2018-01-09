@@ -4,6 +4,7 @@
 
 * [Project](#project)
 * [Visual Servoing](#visualservoing)
+* [Getting a template in the Gazebo world](#getting)
 * [Materials-Videos](#materials)
 
 
@@ -14,7 +15,7 @@ More description is given in the subsections.
 ## VisualServoing
 
 
-## Getting your marker in the Gazebo world:
+## Getting a template in the Gazebo world:
 Paste a folder containing your template in 'gazeboResources' into your gazebo resources directory.
 
 Usually, this is a hidden folder in your 'home' directory, named '.gazebo'. Paste the folder inside '.gazebo/models/'. In your Gazebo, you'll now be able to 'insert' your template, check the insert pane!
