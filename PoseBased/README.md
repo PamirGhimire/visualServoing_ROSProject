@@ -1,5 +1,7 @@
 # ROS - Visual Servoing PBVS
 
+#### This implementation rely and is based on **demo-pionneer** from [this repository](https://github.com/lagadic/demo_pioneer). The Pose Based process rely on an adaptation of the code to fit turtlebot characteristics.
+
 **Table-of-contents**
 
 * [Dependencies](#dependencies)
