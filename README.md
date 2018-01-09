@@ -72,4 +72,7 @@ This folder contains the Gazebo world to launch the code under simulation.
 
 ## Materials
 
+### Video of the code live on robot
 [![Watch the video](ressources/vide.png)](https://www.youtube.com/watch?v=K4BQ3v-MSrs)
+### Video of simulation
+[![Watch the video](ressources/video.png)](https://www.youtube.com/watch?v=qCdgKvE52iY)
