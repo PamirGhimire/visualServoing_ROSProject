@@ -12,7 +12,7 @@ More description is given in the subsections.
 
 The following project has been tested with **Ubuntu 14.04 LTS**.
 
-Since this project concern ROS Indigo libraries are needed:
+Since this project concerns ROS Indigo, following libraries are needed:
 
 * ROS Indigo - `sudo apt-get install ros-indigo-desktop-full`
 * Gazebo Simulation - `sudo apt-get install ros-indigo-gazebo-ros-pkgs ros-indigo-gazebo-ros-control`
@@ -21,11 +21,19 @@ The development part has been performed using CPP and ViSP:
 
 * ROS Indigo ViSP - `sudo apt-get install ros-indigo-visp-*`
 * ViSP - `sudo apt-get install libvisp-dev libvisp-doc visp-images-data`
+* Turtlebot Gazebo - `sudo apt-get install ros-indigo-turtlebot_gazebo`
+
+## Getting your marker in the Gazebo world:
+Paste the 'marker0' folder in 'gazeboResources' into your gazebo resources directory.
+
+Usually, this is a hidden folder in your 'home' directory, named '.gazebo'. Paste the 'marker0' folder inside '.gazebo/models/'. In your Gazebo, you'll now be able to 'insert' marker0, check the insert pane!
+
+The 'qr.world' file available in 'world' folder contains a Gazebo world with a pattern containing 5 dots. 
 
 
 ## Process
 
-The following code perform multiple operation to compute **visual servoing task** using **ROS Indigo** and a **Turlebot**.
+The following code performs multiple operations to compute **visual servoing task** using **ROS Indigo** and a **Turlebot**.
 
 * Extraction of image from the Kinect ( and dependant topic) .
 * Detection of the target using a predefined template.

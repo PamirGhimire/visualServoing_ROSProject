@@ -142,12 +142,17 @@ include_directories(
 
 #-----------------------------------------------------
 
-add_executable(blob_ibvs scripts/BLOB/blob_ibvs.cpp)
-target_link_libraries(blob_ibvs
+add_executable(IBVS_PointsBased scripts/pointsBasedIBVS.cpp)
+target_link_libraries(IBVS_PointsBased
    ${catkin_LIBRARIES}
  )
-add_dependencies(blob_ibvs project_vs)
+add_dependencies(IBVS_PointsBased project_vs)
 
+add_executable(IBVS_PointsBased scripts/pointsBasedIBVS_gazebo.cpp)
+target_link_libraries(IBVS_PointsBased
+   ${catkin_LIBRARIES}
+ )
+add_dependencies(IBVS_PointsBased project_vs)
 
 
 ## Rename C++ executable without prefix
