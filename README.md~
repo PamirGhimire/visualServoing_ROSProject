@@ -1,5 +1,7 @@
 # ROS - Visual Servoing PBVS
 
+#### This repository is organized as an unusual way, all the codes are available under master branch but also under each specific branch owning the same name as the code. This allow a correct separation of the development and the working project.
+
 **Table-of-contents**
 
 * [Project](#project)
@@ -13,10 +15,11 @@ More description is given in the subsections.
 
 ## Project
 
-The project is developped under **ROS** environment and using **Ubuntu 14.04 LTS** with a ** TurtleBot ** runing on **indigo**. 
+The project is developped under **ROS** environment and using **Ubuntu 14.04 LTS** with a **TurtleBot** runing on **indigo**. 
 The key idea of the project is to develop an application runing on the robot to solve a navigation / object displacement problem.
 This big picture can be sub-divided into 3 parts, Navigation, Visual Servoing and Pick & Place. The related work has been performed on Visual Servoing Part.
 The goal of the Fine Positionning task is to be able to move from the landing position of the navigation program to a table where a robotic arm will operate.
+
 
 
 ## VisualServoing
@@ -38,17 +41,22 @@ Most visual servoing methods in literature are closed-loop control schemes that 
 Also called dynamic position-based look-and-move, ’s()’ is a set of 3D parameters related to relative pose between camera and target object
 
 ### IBVS - Image Based Visual Servoing 
-Also called dynamic image-based look-and-move, ’s()’ is a set of 2D parameters directly expressed in image, some possible 2D parameters being image plane coordinates of feature points, line segments, cen-
-troid and other moments of regions of interest, and so on.
+Also called dynamic image-based look-and-move, ’s()’ is a set of 2D parameters directly expressed in image, some possible 2D parameters being image plane coordinates of feature points, line segments, centroid and other moments of regions of interest, and so on.
 
 ![Base QR](readMeResources/ibvspbvs.png)
+
+Figure : Left IBVS, and right, PBVS, from [3].
 
 Finally, for both IBVS and PBVS, the velocity of the camera (mounted on the end effector) is computed as follows:
 
 ![Base QR](readMeResources/errmin.png)
 
 ## References
-[1] 
+[1] Wikipedia contributors. ”Visual servoing.” Wikipedia, The Free Encyclopedia. Wikipedia, The Free Encyclopedia, 17 Sep. 2017. Web. 1 Nov. 2017.
+
+[2] S. Hutchinson, G. Hager, and P. Corke, “A tutorial on visual servo control,” IEEE Trans. Robot. Automat. vol. 12, pp. 51–670, Oct. 1996
+
+[3] Visual servoing, Francois Chaumette, Inria, Rennes, France In Computer Vision: a Reference Guide, K. Ikeuchi (ed.) pp. 869-874, Springer, 2014.
 
 ### Comparison of processes & choices of implementation
 

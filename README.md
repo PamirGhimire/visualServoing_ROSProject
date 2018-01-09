@@ -41,10 +41,11 @@ Most visual servoing methods in literature are closed-loop control schemes that 
 Also called dynamic position-based look-and-move, ’s()’ is a set of 3D parameters related to relative pose between camera and target object
 
 ### IBVS - Image Based Visual Servoing 
-Also called dynamic image-based look-and-move, ’s()’ is a set of 2D parameters directly expressed in image, some possible 2D parameters being image plane coordinates of feature points, line segments, cen-
-troid and other moments of regions of interest, and so on.
+Also called dynamic image-based look-and-move, ’s()’ is a set of 2D parameters directly expressed in image, some possible 2D parameters being image plane coordinates of feature points, line segments, centroid and other moments of regions of interest, and so on.
 
 ![Base QR](readMeResources/ibvspbvs.png)
+
+Figure : Left IBVS, and right, PBVS, from [3].
 
 Finally, for both IBVS and PBVS, the velocity of the camera (mounted on the end effector) is computed as follows:
 
@@ -57,8 +58,13 @@ Finally, for both IBVS and PBVS, the velocity of the camera (mounted on the end 
 
 [3] Visual servoing, Francois Chaumette, Inria, Rennes, France In Computer Vision: a Reference Guide, K. Ikeuchi (ed.) pp. 869-874, Springer, 2014.
 
-### Comparison of processes & choices of implementation
+### Comparison of Processes & choices of implementation
+In our experience, the pose-based method that relied on automatic detection of a QR tag of known dimensions was limited in its range of detection. These possibly came from limitations of the visp-auto-tracker.
 
+Our implementation (using ViSP) of points based IBVS offerred a significantly better range, while it requiring manual initialization of points (blobs/dots) that were to be tracked ('S' = {4 points}, see above).
+
+In later stages of our development, we felt that our pose-based approach based on the 'demo-pioneer' (see readMe on PoseBased branch) was more opaque and afforded us less control and room for experimentation than our Points based approach. 
+ 
 
 ## Getting a template in the Gazebo world:
 Create a folder containing your template in 'gazeboResources' into your gazebo resources directory. For reference, check the 'models/marker0' folder in IBVS_PointsBased' branch.
